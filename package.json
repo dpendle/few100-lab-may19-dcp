@@ -1,7 +1,7 @@
 {
   "name": "learning",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a project created for the Front-End Web 100 Class.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
@@ -36,5 +36,13 @@
   },
   "dependencies": {
     "@types/jasmine": "^3.3.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpendle/few100-lab-may19-dcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dpendle/few100-lab-may19-dcp/issues"
+  },
+  "homepage": "https://github.com/dpendle/few100-lab-may19-dcp#readme"
 }

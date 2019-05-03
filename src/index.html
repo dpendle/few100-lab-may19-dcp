@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Webpack Showcase</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
+
 <body>
-    <h1>Welcome to Class.</h1>
+    <h1>Tip Calculator :)</h1>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-usd"></i></span>
+        <input type="text"
+               id="enteredAmount"
+               class="form-control">
+    </div>
+    <div class="btn-group">
+        <button type="button"
+                class="btn btn-default">10%</button>
+        <button type="button"
+                class="btn btn-default">15%</button>
+        <button type="button"
+                class="btn btn-default">20%</button>
+    </div>
+    <div class="input-group">
+        <input type="text"
+               id="billAmount"
+               class="form-control">
+        <input type="text"
+               id="tipPercentage"
+               class="form-control">
+        <input type="text"
+               id="tipApplied"
+               class="form-control">
+        <input type="text"
+               id="totalToPay"
+               class="form-control">
+    </div>
 </body>
+
 </html>
