@@ -16,40 +16,30 @@
     <h1>Tip Calculator :)</h1>
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-usd"></i></span>
-        <input type="text"
+        <input type="input"
                id="enteredAmount"
                class="form-control">
     </div>
     <div class="btn-group">
-        <button type="button"
-                class="btn btn-default">10%</button>
-        <button type="button"
-                class="btn btn-default">15%</button>
-        <button type="button"
-                class="btn btn-default">20%</button>
+        <button value="10"
+                class="btn btn-secondary">10%</button>
+        <button value="15"
+                class="btn btn-secondary">15%</button>
+        <button disabled
+                value="20"
+                class="btn btn-secondary">20%</button>
     </div>
-    <div class="input-group">
-        <input type="text"
-               id="billAmount"
-               class="form-control"
-               value="Billed Amount:"
-               style="border-radius: 5px;">
-        <input type="text"
-               id="tipPercentage"
-               class="form-control"
-               value="Tip Percentage:"
-               style="border-radius: 5px;">
-        <input type="text"
-               id="tipApplied"
-               class="form-control"
-               value="Amount of Tip:"
-               style="border-radius: 5px;">
-        <input type="text"
-               id="totalToPay"
-               class="form-control"
-               value="Total To Be Paid"
-               style="border-radius: 5px;">
-    </div>
+    <div id="textTip">You are tipping 20%</div>
+    <ul class="list-group">
+        <li id="billAmount"
+            class="list-group-item">Billed Amount: </li>
+        <li id="tipPercentage"
+            class="list-group-item">Tip Percentage: </li>
+        <li id="tipApplied"
+            class="list-group-item">Amount of Tip: </li>
+        <li id="totalToPay"
+            class="list-group-item">Total To Be Paid: </li>
+    </ul>
 </body>
 
 </html>

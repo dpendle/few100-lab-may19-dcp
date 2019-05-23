@@ -1,6 +1,10 @@
 h1 {
     color:black;
 }
-div {
-    padding: 1%;
+div{
+    padding-top: 0.5%;
+    padding-Bottom: 0.5%;
+}
+body {
+    padding-left: 2%;
 }
